@@ -1,0 +1,22 @@
+{
+  "name": "kawan16.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "example.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawan16/kawan16.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kawan16/kawan16.github.io/issues"
+  },
+  "homepage": "https://github.com/kawan16/kawan16.github.io#readme",
+  "dependencies": {
+    "three": "^0.120.1"
+  }
+}
