@@ -57,6 +57,7 @@ function init() {
                 new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
                 new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
             ];
+            
             var mesh = new THREE.Mesh( geometry, materials );
             mesh.position.setFromMatrixPosition( reticle.matrix );
             scene.add( mesh );
