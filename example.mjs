@@ -55,7 +55,7 @@ function init() {
                 new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
                 new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
                 new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
-                new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
+                new THREE.MeshBasicMaterial( { map: texture } ),
             ];
 
             var mesh = new THREE.Mesh( geometry, materials );
