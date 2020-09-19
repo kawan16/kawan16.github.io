@@ -40,7 +40,7 @@ function init() {
 
     document.body.appendChild( ARButton.createButton( renderer, { requiredFeatures: [ 'hit-test' ] } ) );
 
-    var geometry = new THREE.BoxGeometry( 0.2, 1, 1 );
+    var geometry = new THREE.BoxGeometry( 1, 1, 0.2 );
 
 
     function onSelect() {
@@ -57,7 +57,7 @@ function init() {
                 new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
                 new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
             ];
-            
+
             var mesh = new THREE.Mesh( geometry, materials );
             mesh.position.setFromMatrixPosition( reticle.matrix );
             scene.add( mesh );
