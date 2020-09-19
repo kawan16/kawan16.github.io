@@ -55,7 +55,7 @@ function init() {
     var extrudeSettings = { amount: 8, bevelEnabled: true, bevelSegments: 2, steps: 2, bevelSize: 1, bevelThickness: 1 };
 
     var geometry = new THREE.ExtrudeBufferGeometry( heartShape, extrudeSettings );
-    
+
     function onSelect() {
 
         if ( reticle.visible ) {
@@ -63,7 +63,6 @@ function init() {
             var material = new THREE.MeshPhongMaterial( { color: 0xffffff * Math.random() } );
             var mesh = new THREE.Mesh( geometry, material );
             mesh.position.setFromMatrixPosition( reticle.matrix );
-            mesh.scale.y = Math.random() * 2 + 1;
             scene.add( mesh );
 
         }
