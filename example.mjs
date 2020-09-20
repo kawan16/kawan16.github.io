@@ -52,8 +52,8 @@ function init() {
             var materials = [
                 new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
                 new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
-                new THREE.MeshBasicMaterial( { map: texture } ),
-                new THREE.MeshBasicMaterial( { map: texture } ),
+                new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
+                new THREE.MeshPhongMaterial( { color: 0xffffff  } ),
                 new THREE.MeshBasicMaterial( { map: texture } ),
                 new THREE.MeshBasicMaterial( { map: texture } ),
             ];
